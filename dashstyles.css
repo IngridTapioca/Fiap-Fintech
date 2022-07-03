@@ -1,0 +1,111 @@
+body{
+  background-color: #ECF5FA;
+}
+
+.card-saldo{
+  background-color: white;
+  padding: 32px;
+  border-radius: 10px;
+  width: 70vw;
+  margin: auto;
+}
+
+.saldo{
+  display: flex;
+  justify-content: end;
+  font-size: 2.5rem;
+  color: #6FCF97;
+  width: 100%;
+
+}
+
+.btn-div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+.butn {
+  width: 30%;
+  height: 60px;
+  border: none;
+  border-radius: 5px;
+  margin: auto;
+  padding: auto;
+  opacity: 0.85;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5rem;
+  justify-content: center;
+  text-decoration: none; /* remove underline from anchors */
+}
+
+.entrada{
+  background-color: #6FCF97;
+  color: white;
+}
+
+/* add appropriate colors to fb, twitter and google buttons */
+.saida {
+  background-color: #EB5757;
+  color: white;
+}
+
+.trans-div{
+  margin: 20px;
+}
+
+.card-trans{
+  background-color: white;
+  border: 1px solid #EB5757;
+  border-radius: 4px;
+  margin: 5px 0;
+
+}
+
+.card-trans-head-saida{
+  background-color: #EB575720;
+  border-bottom: 1px solid #EB5757;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;  
+}
+
+.card-trans-body-saida{
+  background-color: white;
+  color: #EB5757;
+  padding: 8px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+
+.card-trans-head-entrada{
+  background-color: #6FCF9720;
+  border-bottom: 1px solid #6FCF97;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;  
+}
+
+.card-trans-body-entrada{
+  background-color: white;
+  color: #6FCF97;
+  padding: 8px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+
+.transaction{
+  display: flex;
+  flex-direction: row;
+  justify-items: start;
+  align-items: center;
+  justify-content: space-evenly;
+}
